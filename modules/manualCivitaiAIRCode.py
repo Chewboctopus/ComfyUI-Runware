@@ -23,7 +23,7 @@ class manualCivitaiAIRCode:
     CATEGORY = "Runware"
 
     @classmethod
-    def VALIDATE_INPUTS(cls, air_code):
+    def VALIDATE_INPUTS(cls, **kwargs):
         return True
 
     def manualCivitaiAIRCode(self, **kwargs):
