@@ -16,6 +16,7 @@ from .modules.controlNetCombine import controlNetCombine
 from .modules.embeddingSearch import embeddingSearch
 from .modules.embeddingsCombine import embeddingsCombine
 from .modules.vaeSearch import vaeSearch
+from .modules.manualCivitaiAIRCode import manualCivitaiAIRCode
 
 RUNWARE_COMFYUI_VERSION = "1.0.0 Beta"
 
@@ -35,6 +36,7 @@ NODE_CLASS_MAPPINGS = {
     "Runware Image Upscaler": upscaler,
     "Runware Model Search": modelSearch,
     "Runware Lora Search": loraSearch,
+    "Runware Manual Civitai AIR Code": manualCivitaiAIRCode,
     "Runware Embedding Search": embeddingSearch,
     "Runware VAE Search": vaeSearch,
     "Runware Embeddings Combine": embeddingsCombine,
